@@ -3,92 +3,121 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Blanc Creative Studio</title>
+  <title>Blanc Realty</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="hero">
-    <nav>
-      <div class="logo">Blanc Creative Studio</div>
-      <a href="#contacto" class="nav-btn">Contactar</a>
+  <header class="site-header">
+    <nav class="navbar">
+      <div class="logo">Blanc Realty</div>
+      <div class="nav-links">
+        <a href="#propiedades">Propiedades</a>
+        <a href="#comprar">Comprar</a>
+        <a href="#alquilar">Alquilar</a>
+        <a href="#contacto">Contacto</a>
+      </div>
     </nav>
 
-    <section class="hero-content">
-      <p class="eyebrow">Real Estate Marketing Studio</p>
-      <h1>Marketing inmobiliario premium con creatividad e IA.</h1>
-      <p class="subtitle">
-        Ayudamos a inmobiliarias, agentes y desarrolladores a presentar propiedades mejor,
-        captar clientes y vender más rápido.
-      </p>
-      <div class="hero-actions">
-        <a href="#servicios" class="btn primary">Ver servicios</a>
-        <a href="#paquetes" class="btn secondary">Ver paquetes</a>
+    <section class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">Real Estate Boutique</p>
+        <h1>Encuentra un espacio que se sienta como hogar.</h1>
+        <p>
+          Te acompañamos en la compra, alquiler y búsqueda de propiedades con una experiencia personalizada, elegante y eficiente.
+        </p>
+        <div class="hero-actions">
+          <a href="#comprar" class="btn primary">Quiero comprar</a>
+          <a href="#alquilar" class="btn secondary">Quiero alquilar</a>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <h3>Asistente Blanc</h3>
+        <p>Cuéntanos qué estás buscando y te ayudamos a encontrar opciones ideales.</p>
+        <a href="#formulario" class="mini-link">Iniciar búsqueda</a>
       </div>
     </section>
   </header>
 
   <main>
-    <section id="servicios" class="section">
-      <p class="eyebrow">Servicios</p>
-      <h2>Todo lo que una propiedad necesita para destacar.</h2>
+    <section id="propiedades" class="section">
+      <p class="eyebrow">Propiedades</p>
+      <h2>Espacios seleccionados para cada estilo de vida.</h2>
 
-      <div class="grid">
-        <article class="card">
-          <h3>Publicidad inmobiliaria</h3>
-          <p>Campañas para Meta, Instagram y Google enfocadas en generación de leads.</p>
+      <div class="property-grid">
+        <article class="property-card">
+          <div class="property-image"></div>
+          <div class="property-content">
+            <span>Alquiler</span>
+            <h3>Apartamento moderno</h3>
+            <p>Escazú · 2 habitaciones · 2 parqueos</p>
+          </div>
         </article>
 
-        <article class="card">
-          <h3>Landing pages</h3>
-          <p>Páginas elegantes para propiedades, proyectos o agentes inmobiliarios.</p>
+        <article class="property-card">
+          <div class="property-image image-two"></div>
+          <div class="property-content">
+            <span>Venta</span>
+            <h3>Casa familiar</h3>
+            <p>Santa Ana · 3 habitaciones · jardín</p>
+          </div>
         </article>
 
-        <article class="card">
-          <h3>Diseño creativo</h3>
-          <p>Posts, brochures, presentaciones y piezas visuales para ventas.</p>
-        </article>
-
-        <article class="card">
-          <h3>Fotos profesionales</h3>
-          <p>Fotografía y edición pensada para mostrar cada espacio de forma premium.</p>
-        </article>
-
-        <article class="card">
-          <h3>Automatización con IA</h3>
-          <p>Asistentes para WhatsApp, calificación de leads y seguimiento automático.</p>
+        <article class="property-card">
+          <div class="property-image image-three"></div>
+          <div class="property-content">
+            <span>Inversión</span>
+            <h3>Proyecto premium</h3>
+            <p>San José · alta plusvalía · amenidades</p>
+          </div>
         </article>
       </div>
     </section>
 
-    <section id="paquetes" class="section dark">
-      <p class="eyebrow">Paquetes</p>
-      <h2>Planes simples para empezar rápido.</h2>
-
-      <div class="pricing">
-        <article class="price-card">
-          <h3>Starter</h3>
-          <p>Ideal para una propiedad o agente que necesita presencia profesional.</p>
-          <strong>$250+</strong>
-        </article>
-
-        <article class="price-card featured">
-          <h3>Growth</h3>
-          <p>Contenido, anuncios y landing page para generar clientes de forma constante.</p>
-          <strong>$500+</strong>
-        </article>
-
-        <article class="price-card">
-          <h3>AI Premium</h3>
-          <p>Marketing completo con automatización, WhatsApp AI y seguimiento de leads.</p>
-          <strong>$1,000+</strong>
-        </article>
+    <section id="comprar" class="section split">
+      <div>
+        <p class="eyebrow">Compra</p>
+        <h2>Compra con claridad, criterio y acompañamiento.</h2>
       </div>
+      <p>
+        Te ayudamos a filtrar opciones según zona, presupuesto, parqueos, habitaciones y tipo de financiamiento.
+      </p>
+    </section>
+
+    <section id="alquilar" class="section split soft">
+      <div>
+        <p class="eyebrow">Alquiler</p>
+        <h2>Encuentra alquileres alineados a tu estilo de vida.</h2>
+      </div>
+      <p>
+        Tomamos en cuenta mascotas, fecha de mudanza, cantidad de personas, mobiliario y necesidades especiales.
+      </p>
+    </section>
+
+    <section id="formulario" class="section form-section">
+      <p class="eyebrow">Formulario inteligente</p>
+      <h2>Cuéntanos qué estás buscando.</h2>
+
+      <form class="lead-form">
+        <select>
+          <option>Estoy buscando...</option>
+          <option>Comprar</option>
+          <option>Alquilar</option>
+        </select>
+
+        <input type="text" placeholder="Zona de interés" />
+        <input type="text" placeholder="Presupuesto aproximado" />
+        <input type="text" placeholder="Cantidad de habitaciones" />
+        <input type="text" placeholder="Parqueos" />
+        <textarea placeholder="Cuéntanos detalles importantes"></textarea>
+
+        <button type="submit">Enviar solicitud</button>
+      </form>
     </section>
 
     <section id="contacto" class="section contact">
       <p class="eyebrow">Contacto</p>
-      <h2>Convirtamos propiedades en oportunidades.</h2>
-      <p>Agenda una conversación para crear una estrategia visual, digital y automatizada.</p>
+      <h2>Hablemos de tu próxima propiedad.</h2>
       <a class="btn primary" href="https://wa.me/" target="_blank">Contactar por WhatsApp</a>
     </section>
   </main>
